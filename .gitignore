@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+.DS_Store
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+temp_repo2/
+temp_repo/
