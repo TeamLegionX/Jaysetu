@@ -1,0 +1,35 @@
+# Core API
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+asyncpg==0.31.0
+httpx==0.28.1
+
+# Geo / terrain
+geopandas==1.1.4
+shapely==2.1.2
+rasterio==1.5.1
+pysheds==0.5
+pyproj==3.8.0
+
+# Climate
+xarray==2026.7.0
+imdlib==0.1.21
+
+# Data science / ML
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.4.1
+shap==0.52.0
+
+# Async workers (brief: Celery/Redis for ingestion)
+celery==5.4.0
+redis==5.2.1
+
+# Reports
+openpyxl==3.1.5
+
+# Testing
+pytest==9.1.1
